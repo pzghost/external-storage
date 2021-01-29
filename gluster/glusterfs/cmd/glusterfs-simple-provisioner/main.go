@@ -20,7 +20,6 @@ import (
 	"flag"
 	"strings"
 
-	vol "github.com/kubernetes-incubator/external-storage/gluster/glusterfs/pkg/volume"
 	"github.com/kubernetes-sigs/sig-storage-lib-external-provisioner/controller"
 	"k8s.io/apimachinery/pkg/util/validation"
 	"k8s.io/apimachinery/pkg/util/validation/field"
@@ -29,6 +28,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
+
+	vol "github.com/kubernetes-retired/external-storage/gluster/glusterfs/pkg/volume"
 )
 
 var (
