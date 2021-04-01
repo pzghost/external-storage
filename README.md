@@ -1,3 +1,4 @@
+FROM: https://github.com/kubernetes-retired/external-storage
 Although many of these recipes still work, this repo is now deprecated, moving work to https://github.com/kubernetes-sigs/sig-storage-lib-external-provisioner, come join us there !  
 
 # External Storage
